@@ -22,7 +22,7 @@ pkg install -y root-repo x11-repo tur-repo unstable-repo
 pkg install -y git ruby python clang make wget openssl openssl-tool ncurses-utils binutils
 
 echo "[+] Cloning Metasploit Installer..."
-git clone https://github.com/gushmazuko/metasploit_in_termux
+git clone https://github.com/ItsRudronil/MSF-BY-ItsRudronil
 
 cd metasploit_in_termux
 chmod +x metasploit.sh
